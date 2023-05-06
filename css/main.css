@@ -138,7 +138,7 @@ header h2 {
 }
 
 #contact .content-wrapper {
-    padding: 110px 0;
+    padding: 115px 0 115px 100px;
 }
 
 .contact-image {
@@ -156,13 +156,13 @@ header h2 {
 
 .contact-info {
     float: left;
-    width: 55%;
+    width: 50%;
     padding-left: 150px;
     box-sizing: border-box;
 }
 
 .contact-info h2 {
-    padding: 30px 0;
+    padding-top: 30px;
     font-size: 36px;
     text-transform: capitalize;
 }
@@ -170,7 +170,6 @@ header h2 {
 #email-header {
     padding-bottom: 5px;
     font-size: 24px;
-    line-height: 36px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
 }
@@ -178,4 +177,22 @@ header h2 {
 #socialmedia-header {
     margin: 20px 0 5px 0;
     font-weight: 300;
+    font-size: 24px;
+}
+
+#envelope-img {
+    padding-right: 10px;
+}
+
+#email-link {
+    color: #5e5d53;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.contact-info ul li {
+    display: inline-block;
+    padding-right: 25px;
+    
 }

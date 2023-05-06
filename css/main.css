@@ -69,9 +69,24 @@ header h2 {
 
 /****** About Styles ******/
 
+#about .content-wrapper {
+    padding: 80px 0;
+}
 
+#about h2 {
+    color: #817f80;
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    padding-bottom: 25px;
+}
 
-
+#about p {
+    float: left;
+    width: 500px;
+    padding: 0 50px;
+    font-size: 20px;
+    line-height: 40px;
+}
 
 
 

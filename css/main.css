@@ -132,3 +132,50 @@ header h2 {
 
 
 /****** Contact Styles ******/
+
+#contact {
+    background-color: #f9e9e9;
+}
+
+#contact .content-wrapper {
+    padding: 110px 0;
+}
+
+.contact-image {
+    width: 500px;
+    float: left;
+}
+
+#contact-img {
+    height: 350px;
+    width: 500px;
+    border: 10px solid #ffffff;
+    box-sizing: border-box;
+    margin: 0 50px;
+}
+
+.contact-info {
+    float: left;
+    width: 55%;
+    padding-left: 150px;
+    box-sizing: border-box;
+}
+
+.contact-info h2 {
+    padding: 30px 0;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+#email-header {
+    padding-bottom: 5px;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+#socialmedia-header {
+    margin: 20px 0 5px 0;
+    font-weight: 300;
+}

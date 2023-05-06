@@ -1,8 +1,15 @@
 /****** Global Styles ******/
 body {
-    /*Test propert to make sure the CSS files were linked background-color: red; */
+    color: #5E5D5E;
+    font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
+.content-wrapper {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
 
 
 
@@ -12,11 +19,36 @@ body {
 
 /****** Header Styles ******/
 
+header h1 {
+    float: left;
+    width: 300px;
+    color: #7B7E54;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    padding: 65px 0 65px 25px;
+}
 
+ header nav {
+    float: right;
+    width: 800px;
+    padding: 75px 25px 75px 0;
+    text-align: right;
+}
 
+nav ul li {
+    display: inline-block;
+}
 
+nav ul li a {
+    text-transform: uppercase;
+    color: #727172;
+    font-size: 18px;
+    padding-left: 80px;
+}
 
-
+header h2 {
+    float: left;
+}
 
 
 
